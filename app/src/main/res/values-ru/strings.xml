@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">ЗаНово</string>
+    <string name="access_gps">Разрешите приложению доступ к геолокации</string>
+    <string name="title"><font color="navy">ЗаНово</font><font color="blue">российск</font></string>
+    <string name="subtitle">Твой личный гид в кармане</string>
+    <string name="start_expedition">Начать экспедицию</string>
+    <string name="route_icon">Фото маршрута</string>
+    <string name="kilometrage">Километраж:</string>
+    <string name="difficulty">Сложность:</string>
+    <string name="time">Время:</string>
+    <string name="description">ЗаНово о маршруте:</string>
+    <string name="equipment">Снаряжение:</string>
+    <string name="season">Сезон:</string>
+    <string name="start">Старт ➡</string>
+    <string name="routes">маршрутов</string>
+    <string name="weather">ЗаНово о погоде:</string>
+    <string name="explored">Вы исследовали</string>
+    <string name="points">точек из</string>
+    <string name="keep_up">. Так держать!</string>
+    <string name="remove_marker">Убрать отметку</string>
+    <string name="check_in">Отметиться</string>
+    <string name="you_removed_marker">Вы убрали отметку в этой точке</string>
+    <string name="you_checked_in">Вы отметились в этой точке</string>
+    <string name="back">Назад</string>
+    <string name="your_geo">Ваша геолокация</string>
+    <string name="this_is_your_geo">Это ваша геолокация</string>
+    <string name="temperature">Сейчас в населённом пункте</string>
+    <string name="temperature_feels">Ощущается как</string>
+    <string name="pressure">Давление:</string>
+    <string name="mmhg">мм рт. ст.</string>
+    <string name="hpa">гПа</string>
+    <string name="humidity">Влажность:</string>
+    <string name="wind_speed">Скорость ветра:</string>
+    <string name="mps">м/с</string>
+    <string name="wind_direction">Направление ветра:</string>
+    <string-array name="directions">
+        <item>северный</item>
+        <item>северо-восточный</item>
+        <item>восточный</item>
+        <item>юго-восточный</item>
+        <item>южный</item>
+        <item>юго-западный</item>
+        <item>западный</item>
+        <item>северо-западный</item>
+    </string-array>
+</resources>

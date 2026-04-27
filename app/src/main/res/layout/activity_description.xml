@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/routeIcon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/route_icon" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding">
+            <TextView
+                android:id="@+id/routeName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginBottom="@dimen/padding"
+                android:fontFamily="@font/centurygothic_bold"
+                android:textSize="@dimen/medium_text"
+                android:textColor="@color/blue" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:fontFamily="@font/centurygothic_bold"
+                        android:textSize="@dimen/small_text"
+                        android:textColor="@color/blue"
+                        android:text="@string/kilometrage" />
+                    <TextView
+                        android:id="@+id/kilometrage"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:fontFamily="@font/centurygothic_bold"
+                        android:textSize="@dimen/small_text"
+                        android:textColor="@color/blue" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:fontFamily="@font/centurygothic_bold"
+                        android:textSize="@dimen/small_text"
+                        android:textColor="@color/blue"
+                        android:text="@string/difficulty" />
+                    <TextView
+                        android:id="@+id/difficulty"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:fontFamily="@font/centurygothic_bold"
+                        android:textSize="@dimen/small_text"
+                        android:textColor="@color/blue" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:fontFamily="@font/centurygothic_bold"
+                        android:textSize="@dimen/small_text"
+                        android:textColor="@color/blue"
+                        android:text="@string/time" />
+                    <TextView
+                        android:id="@+id/time"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:fontFamily="@font/centurygothic_bold"
+                        android:textSize="@dimen/small_text"
+                        android:textColor="@color/blue" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/centurygothic_bold"
+                android:textSize="@dimen/medium_text"
+                android:textColor="@color/blue"
+                android:text="@string/description" />
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding"
+                android:fontFamily="@font/centurygothic_bold"
+                android:textSize="@dimen/small_text"
+                android:textColor="@color/blue" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/centurygothic_bold"
+                android:textSize="@dimen/medium_text"
+                android:textColor="@color/blue"
+                android:text="@string/equipment" />
+            <TextView
+                android:id="@+id/equipment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding"
+                android:fontFamily="@font/centurygothic_bold"
+                android:textSize="@dimen/small_text"
+                android:textColor="@color/blue" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginBottom="@dimen/padding">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:fontFamily="@font/centurygothic_bold"
+                        android:textSize="@dimen/small_text"
+                        android:textColor="@color/blue"
+                        android:text="@string/season" />
+                    <TextView
+                        android:id="@+id/season"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:fontFamily="@font/centurygothic_bold"
+                        android:textSize="@dimen/small_text"
+                        android:textColor="@color/blue" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center">
+                    <Button
+                        android:id="@+id/startButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/centurygothic_bold"
+                        android:textSize="@dimen/medium_text"
+                        android:background="@drawable/button"
+                        android:textColor="@color/white"
+                        android:text="@string/start" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

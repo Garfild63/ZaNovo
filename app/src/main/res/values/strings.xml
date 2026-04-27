@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">ZaNovo</string>
+    <string name="access_gps">Allow the application to access your location</string>
+    <string name="title"><font color="navy">ZaNovo</font><font color="blue">rossiysk</font></string>
+    <string name="subtitle">Your personal guide in your pocket</string>
+    <string name="start_expedition">Start an expedition</string>
+    <string name="route_icon">Route photo</string>
+    <string name="kilometrage">Kilometrage:</string>
+    <string name="difficulty">Difficulty:</string>
+    <string name="time">Time:</string>
+    <string name="description">ZaNovo about route:</string>
+    <string name="equipment">Equipment:</string>
+    <string name="season">Season:</string>
+    <string name="start">Start ➡</string>
+    <string name="routes">routes</string>
+    <string name="weather">ZaNovo about weather:</string>
+    <string name="explored">You have explored</string>
+    <string name="points">points out of</string>
+    <string name="keep_up">. Keep up the good work!</string>
+    <string name="remove_marker">Remove the marker</string>
+    <string name="check_in">Check in</string>
+    <string name="you_removed_marker">You have removed the marker at this point</string>
+    <string name="you_checked_in">You have checked in at this point</string>
+    <string name="back">Back</string>
+    <string name="your_geo">Your geolocation</string>
+    <string name="this_is_your_geo">This is your geolocation</string>
+    <string name="temperature">Current temperature in the locality</string>
+    <string name="temperature_feels">Feels like</string>
+    <string name="pressure">Pressure:</string>
+    <string name="mmhg">mmHg.</string>
+    <string name="hpa">hPa</string>
+    <string name="humidity">Humidity:</string>
+    <string name="wind_speed">Wind speed:</string>
+    <string name="mps">m/s</string>
+    <string name="wind_direction">Wind direction:</string>
+    <string-array name="directions">
+        <item>north</item>
+        <item>northeast</item>
+        <item>east</item>
+        <item>southeast</item>
+        <item>south</item>
+        <item>southwest</item>
+        <item>west</item>
+        <item>northwest</item>
+    </string-array>
+</resources>
