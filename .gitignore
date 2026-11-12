@@ -1,5 +1,7 @@
 # Project exclude paths
+/.git/
 /.gradle/
+/.idea/
 /app/build/
-/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/
+/app/src/main/java/com/garfild63/zanovo/MyApiKeys.java
 /build/
